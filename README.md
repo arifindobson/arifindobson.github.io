@@ -1,5 +1,7 @@
 ## Muhammad Arifin Dobson
 
+I have a dream to become a teacher, researcher and a farmer. I am now pursuing a Masters Degree in Astrophysics on Institut Teknologi Bandung (ITB), finished my Physics Undergraduate degree from Universitas Katolik Parahyangan (UNPAR) in Bandung. I grew up in a village-town called Lembang, located north of Bandung in West Java Indonesia, the weather here is nice and I love hiking. Please reach me out for some research collaboration or just a friendly chit-chat.
+
 
 ### Twilight Remote Observatory (TwRO)
 Development diary of Twilight observing system. Visit the prototype website [here](http://twro.kabarlangit.com)
