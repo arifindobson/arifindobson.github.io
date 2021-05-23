@@ -10,6 +10,10 @@ Joined a research group to develop a Deep Learning Algorithm on detecting Gravit
 
 Sharing my personal tricks and media on teaching.
 
+## EcoSol SunHarvester
+
+My lifelong passion project on building a affordable and efficient solar water heater, to reduce carbon footprint and provide one of the solution for green living. Visit the website [here](https://ecosol.id)
+
 
 ## Social Media
 
