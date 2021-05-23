@@ -1,8 +1,20 @@
-## Welcome to GitHub Pages
+## Twilight Remote Observatory
 
-You can use the [editor on GitHub](https://github.com/widobsono/widobsono.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Development diary of Twilight observing system. Visit the prototype website [here](http://twro.kabarlangit.com)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Gravitational Lensing
+
+Joined a research group to develop a Deep Learning Algorithm on detecting Gravitational Lensing system.
+
+## Physics & Astrophysics Education
+
+Sharing my personal tricks and media on teaching.
+
+
+## Social Media
+
+Coming Soon
+
 
 ### Markdown
 
