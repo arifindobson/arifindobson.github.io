@@ -1,21 +1,21 @@
-## Twilight Remote Observatory
+## Muhammad Arifin Dobson
 
 Development diary of Twilight observing system. Visit the prototype website [here](http://twro.kabarlangit.com)
 
-## Gravitational Lensing
+### Gravitational Lensing
 
 Joined a research group to develop a Deep Learning Algorithm on detecting Gravitational Lensing system.
 
-## Physics & Astrophysics Education
+### Physics & Astrophysics Education
 
 Sharing my personal tricks and media on teaching.
 
-## EcoSol SunHarvester
+### EcoSol SunHarvester
 
 My lifelong passion project on building a affordable and efficient solar water heater, to reduce carbon footprint and provide one of the solution for green living. Visit the website [here](https://ecosol.id)
 
 
-## Social Media
+### Social Media
 
 Coming Soon
 
