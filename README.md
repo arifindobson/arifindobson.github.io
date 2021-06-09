@@ -1,57 +1,24 @@
-## Muhammad Arifin Dobson
+<div align="center">
+<img width="250" src="assets/profile.png">
+<br>
+<h2>Muhammad Arifin Dobson</h2>
+Astrophysics Researcher • Farmer
+<p style="margin-top: 30px;margin-bottom:40px;">
+<a href="https://twitter.com/widobsono">🐦Twitter</a> –
+<a href="https://github.com/widobsono">🕹️Github</a> –
+<a href="https://www.linkedin.com/in/arifindobson/">👔LinkedIn</a> – <a href="https://medium.com/@widobsono">📚Medium</a>
+– <a href="https://www.instagram.com/widobsono/">📷Instagram</a>
+<br>E-Mail:
+<a href="mailto:widobsono@gmail.com">widobsono@gmail.com</a></p>
 
-I have a dream to become a teacher, researcher and a farmer. I am now pursuing a Masters Degree in Astrophysics on Institut Teknologi Bandung (ITB), finished my Physics Undergraduate degree from Universitas Katolik Parahyangan (UNPAR) in Bandung. I grew up in a village-town called Lembang, located north of Bandung in West Java Indonesia, the weather here is nice and I love hiking. Please reach me out for some research collaboration or just a friendly chit-chat.
+<a href="/CV_Johannes_Rieke.pdf" style="background: #5694f1; color: white; padding: 10px; border-radius:10px;">Download my CV</a>
 
+<a href="#" style="background: #fc8003; color: white; padding: 10px; border-radius:10px;">Research Projects</a>
 
-### Twilight Remote Observatory (TwRO)
-Development diary of Twilight observing system. Visit the prototype website [here](http://twro.kabarlangit.com)
+<a href="#" style="background: #33d662; color: white; padding: 10px; border-radius:10px;">Outreach</a>
+<br><br>
+</div>
 
-### Gravitational Lensing
+## Personal Information
 
-Joined a research group to develop a Deep Learning Algorithm on detecting Gravitational Lensing system.
-
-### Physics & Astrophysics Education
-
-Sharing my personal tricks and media on teaching.
-
-### EcoSol SunHarvester
-
-My lifelong passion project on building a affordable and efficient solar water heater, to reduce carbon footprint and provide one of the solution for green living. Visit the website [here](https://ecosol.id)
-
-
-### Social Media
-
-Coming Soon
-
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/widobsono/widobsono.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Still under construction. _Masih dalam pembangunan._
