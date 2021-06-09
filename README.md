@@ -27,6 +27,22 @@ Still under construction. _Masih dalam pembangunan._
 
 Still under construction. _Masih dalam pembangunan._
 
+#### Twilight Remote Observatory (TwRO)
+
+#### Deep Lensing
+
+#### EcoSol SunHarvester
+
+Passion project I started since I was in elementary school (2007) about Solar Thermal Collector (STC) to heat water. This project introduces me to the world of research and development, embark me on a wonderful adventure. The development is still on-going, I am planning to make the technology open-source, to help reducing the carbon footprint of our daily life enjoyment, hot water shower and dishwashing.
+
+[Website](https://ecosol.id) • [YouTube Playlist (Indonesian language)](https://www.youtube.com/playlist?list=PLQ_8ZsC5aVAFmmDcpj5l_m5RKfCF4RrZ_)
+
 ## Outreach
+
+I am passionate about public outreach for Astronomy and science in general. I want to make STEAM (Science, Technology, Engineering, Arts and Mathematics) accessible and useful to everyone. You will find a curated (by me) lists of recomended open science resources, tutorials and popular science articles. Any suggestions, requests and contribution are highly appreciated!
+
+#### Camilan Ilmu
+
+#### Public Talks
 
 Still under construction. _Masih dalam pembangunan._
