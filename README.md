@@ -11,14 +11,22 @@ Astrophysics Researcher • Farmer
 <br>E-Mail:
 <a href="mailto:widobsono@gmail.com">widobsono@gmail.com</a></p>
 
-<a href="/CV_Johannes_Rieke.pdf" style="background: #5694f1; color: white; padding: 10px; border-radius:10px;">Download my CV</a>
+<a href="assets/cv_arifin_202105.pdf" style="background: #5694f1; color: white; padding: 10px; border-radius:10px; margin:5px;">Download my CV</a>
 
-<a href="#" style="background: #fc8003; color: white; padding: 10px; border-radius:10px;">Research Projects</a>
+<a href="#research-projects" style="background: #fc8003; color: white; padding: 10px; border-radius:10px; margin:5px;">Research Projects</a>
 
-<a href="#" style="background: #33d662; color: white; padding: 10px; border-radius:10px;">Outreach</a>
+<a href="#outreach" style="background: #33d662; color: white; padding: 10px; border-radius:10px; margin:5px;">Outreach</a>
 <br><br>
 </div>
 
 ## Personal Information
+
+Still under construction. _Masih dalam pembangunan._
+
+## Research Projects
+
+Still under construction. _Masih dalam pembangunan._
+
+## Outreach
 
 Still under construction. _Masih dalam pembangunan._
