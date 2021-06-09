@@ -4,12 +4,12 @@
 <h2>Muhammad Arifin Dobson</h2>
 Astrophysics Researcher • Farmer
 <p style="margin-top: 30px;margin-bottom:40px;">
-<a href="https://twitter.com/widobsono">🐦Twitter</a> –
-<a href="https://github.com/widobsono">🕹️Github</a> –
-<a href="https://www.linkedin.com/in/arifindobson/">👔LinkedIn</a> – <a href="https://medium.com/@widobsono">📚Medium</a>
-– <a href="https://www.instagram.com/widobsono/">📷Instagram</a>
+<a href="https://twitter.com/widobsono" target="_blank">🐦Twitter</a> –
+<a href="https://github.com/widobsono" target="_blank">🕹️Github</a> –
+<a href="https://www.linkedin.com/in/arifindobson/" target="_blank">👔LinkedIn</a> – <a href="https://medium.com/@widobsono" target="_blank">📚Medium</a>
+– <a href="https://www.instagram.com/widobsono/" target="_blank">📷Instagram</a>
 <br>E-Mail:
-<a href="mailto:widobsono@gmail.com">widobsono@gmail.com</a></p>
+<a href="mailto:widobsono@gmail.com" target="_blank">widobsono@gmail.com</a></p>
 
 <a href="assets/cv_arifin_202105.pdf" style="background: #5694f1; color: white; padding: 10px; border-radius:10px; margin:5px;">Download my CV</a>
 
