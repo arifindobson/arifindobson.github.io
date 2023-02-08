@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript">
+      async function scanBarcode() {
+        // Request access to the user's camera
+        const stream = await navigator.mediaDevices.getUserMedia({
+          video: { facingMode: "environment" }
+        });
+
+        // Create a video element to display the camera stream
+        const video = document.createElement("video");
+        video.setAttribute("autoplay", "");
+        video.setAttribute("muted", "");
+        video.srcObject = stream;
+
+        // Wait for the video to start playing
+        await new Promise(resolve => (video.onplaying = resolve));
+
+        // Create a barcode scanner using the ZXing library
+        const scanner = new ZXing.BrowserBarcodeReader();
+
+        // Read the barcode from the video stream
+        const result = await scanner.decodeFromVideoElement(video, document.getElementById("video-source"));
+
+        // Stop the camera stream
+        stream.getTracks().forEach(track => track.stop());
+
+        // Show the barcode result
+        document.getElementById("barcode-result").innerHTML = result.text;
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Barcode Scanner</h1>
+    <select id="video-source">
+    </select>
+    <br>
+    <button onclick="scanBarcode()">Scan Barcode</button>
+    <br><br>
+    Result: <span id="barcode-result"></span>
+  </body>
+</html>
