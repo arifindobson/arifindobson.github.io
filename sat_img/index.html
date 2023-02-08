@@ -1,0 +1,92 @@
+<html>
+<head>
+  <style>
+    .slider-container {
+      width: 500px;
+      height: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <?php include 'myFunc.php';?>
+
+  <div class="slider-container">
+    <img id="slider-image" src="image1.png" alt="Image 1">
+  </div>
+  <br>
+  <input type="range" id="slider" min="0" max="2" value="0" step="1">
+  <br><br>
+
+  <div>
+    <button id="slide-button">Next</button>
+    <button id="play">Play</button>
+    <button id="pause">Pause</button> <br>
+    <p id="qwe2">Speed: </p>
+    <input type="range" id="speed" min="1" max="10" value="5" step="1">
+    <span id="slider value" > </span>
+    <p id="qwwe2" style="display: inline">frame/s</p>
+  </div>
+  <script>
+    // const images = ["image1.png", "image2.png", "image3.png"];
+    const images = ['image0.png', 'image1.png', 'image2.png', 'image3.png', 'image4.png', 'image5.png', 'image6.png', 'image7.png', 'image8.png', 'image9.png', 'image10.png', 'image11.png', 'image12.png', 'image13.png', 'image14.png', 'image15.png', 'image16.png', 'image17.png', 'image18.png', 'image19.png', 'image20.png', 'image21.png', 'image22.png', 'image23.png', 'image24.png', 'image25.png', 'image26.png'];
+    // const images = getPNGFiles("./");
+    // $files = get_png_files('/path/to/directory');
+    // const images = getPNGFiles("./");
+    const slider = document.getElementById("slider");
+    const sliderImage = document.getElementById("slider-image");
+    const slideButton = document.getElementById("slide-button");
+
+    document.getElementById("slider").max = images.length-1;
+
+    slider.oninput = function() {
+      sliderImage.src = images[this.value];
+    }
+
+    let index = 0;
+    slideButton.onclick = function() {
+      if (index === images.length - 1) {
+        index = 0;
+      } else {
+        index++;
+      }
+      sliderImage.src = images[index];
+      slider.value = index;
+    }
+
+    let playButton = document.getElementById("play");
+    let pauseButton = document.getElementById("pause");
+    let speedSlider = document.getElementById("speed");
+    let currentImage = 0;
+    let speed = speedSlider.value;
+    document.getElementById("slider value").innerHTML = speed;
+
+    playButton.addEventListener("click", function() {
+      let interval = setInterval(function() {
+        // code to change to the next image
+        currentImage = (currentImage + 1) % images.length;
+        // code to display the current image
+        sliderImage.src = images[currentImage];
+        document.getElementById("slider").value = currentImage;
+      }, 1000 / speed);
+
+      pauseButton.addEventListener("click", function() {
+        clearInterval(interval);
+      });
+    });
+
+    speedSlider.addEventListener("input", function() {
+      speed = speedSlider.value;
+      document.getElementById("slider value").innerHTML = speed;
+    });
+  </script>
+</body>
+</html>
