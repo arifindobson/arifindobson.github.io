@@ -1,0 +1,28 @@
+<html>
+<head>
+  <title>Barcode Scanner</title>
+  <script src="https://rawgit.com/schmich/instascan-builds/master/instascan.min.js"></script>
+</head>
+<body>
+  <h1>Barcode Scanner</h1>
+  <video id="preview"></video>
+  <br><br>
+  <p>Barcode Result: <span id="barcodeResult"></span></p>
+
+  <script type="text/javascript">
+    let scanner = new Instascan.Scanner({ video: document.getElementById('preview') });
+    scanner.addListener('scan', function (content) {
+      document.getElementById('barcodeResult').innerHTML = content;
+    });
+    Instascan.Camera.getCameras().then(function (cameras) {
+      if (cameras.length > 0) {
+        scanner.start(cameras[0]);
+      } else {
+        console.error('No cameras found.');
+      }
+    }).catch(function (e) {
+      console.error(e);
+    });
+  </script>
+</body>
+</html>
