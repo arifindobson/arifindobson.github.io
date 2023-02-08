@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://cdn.instascan.org/instascan.min.js"></script>
+    <script type="text/javascript">
+      let scanner = new Instascan.Scanner({ video: document.getElementById('preview') });
+      scanner.addListener('scan', function (content) {
+        document.getElementById("barcode").innerHTML = "Barcode Content: " + content;
+      });
+      function chooseCamera(deviceId) {
+        scanner.start(deviceId);
+      }
+    </script>
+  </head>
+  <body>
+    <select id="camera-select" onchange="chooseCamera(this.value)">
+      <option value="">Select camera</option>
+    </select>
+    <video id="preview"></video>
+    <div id="barcode"></div>
+    <script type="text/javascript">
+      Instascan.Camera.getCameras().then(function (cameras) {
+        if (cameras.length > 0) {
+          cameras.forEach(function (camera) {
+            var option = document.createElement('option');
+            option.value = camera.id;
+            option.innerText = camera.name;
+            document.querySelector('#camera-select').appendChild(option);
+          });
+        } else {
+          console.error('No cameras found.');
+        }
+      }).catch(function (e) {
+        console.error(e);
+      });
+    </script>
+  </body>
+</html>
