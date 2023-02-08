@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <script type="text/javascript">
+      function openCamera() {
+        Instascan.Camera.getCameras().then(function (cameras) {
+          if (cameras.length > 0) {
+            var scanner = new Instascan.Scanner({ video: document.getElementById('preview'), scanPeriod: 5, mirror: false });
+            scanner.addListener('scan', function (content) {
+              console.log(content);
+              document.getElementById("result").innerHTML = content;
+              scanner.stop();
+            });
+            scanner.start(cameras[1]);
+          } else {
+            console.error('No cameras found.');
+          }
+        }).catch(function (e) {
+          console.error(e);
+        });
+      }
+
+      function closeCamera() {
+        var scanner = new Instascan.Scanner({ video: document.getElementById('preview') });
+        scanner.stop();
+      }
+    </script>
+  </head>
+  <body>
+    <button onclick="openCamera()">Scan</button>
+    <div id="preview" style="display: none;"></div>
+    <div id="result"></div>
+  </body>
+</html>
