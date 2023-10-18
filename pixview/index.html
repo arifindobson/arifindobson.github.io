@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #image-container {
+      position: relative;
+      display: inline-block;
+    }
+    #crosshair {
+      position: absolute;
+      width: 2px;
+      height: 2px;
+      background: red;
+    }
+  </style>
+</head>
+<body>
+  <div id="image-container">
+    <img id="viewer-image" src="https://raw.githubusercontent.com/arifindobson/arifindobson.github.io/main/sat_img/image27.png" alt="Image Viewer">
+    <div id="crosshair"></div>
+  </div>
+  <div id="pixel-coordinates">X: 0, Y: 0</div>
+
+  <script>
+    const imageContainer = document.getElementById("image-container");
+    const crosshair = document.getElementById("crosshair");
+    const pixelCoordinates = document.getElementById("pixel-coordinates");
+
+    const image = document.getElementById("viewer-image");
+    const imageWidth = image.width;
+    const imageHeight = image.height;
+
+    imageContainer.addEventListener("mousemove", (event) => {
+      // Get mouse position relative to the image container
+      const rect = imageContainer.getBoundingClientRect();
+      const mouseX = event.clientX - rect.left;
+      const mouseY = event.clientY - rect.top;
+
+      // Update the crosshair position
+      crosshair.style.left = mouseX + "px";
+      crosshair.style.top = mouseY + "px";
+
+      // Calculate and display pixel coordinates
+      const pixelX = Math.round((mouseX / imageContainer.clientWidth) * imageWidth);
+      const pixelY = Math.round((mouseY / imageContainer.clientHeight) * imageHeight);
+      pixelCoordinates.innerText = `X: ${pixelX}, Y: ${pixelY}`;
+    });
+  </script>
+</body>
+</html>
