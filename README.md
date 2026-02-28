@@ -13,6 +13,8 @@ Astrophysics Researcher • Farmer
 
 <a href="assets/cv_arifin_202105.pdf" style="background: #5694f1; color: white; padding: 10px; border-radius:10px; margin:5px;">Download my CV</a>
 
+<a href="assets/leadlabz-brand-guidelines-v2.html" style="background: #5694f1; color: white; padding: 10px; border-radius:10px; margin:5px;">Lead Labz</a>
+
 <a href="#research-projects" style="background: #fc8003; color: white; padding: 10px; border-radius:10px; margin:5px;">Research Projects</a>
 
 <a href="#outreach" style="background: #33d662; color: white; padding: 10px; border-radius:10px; margin:5px;">Outreach</a>
